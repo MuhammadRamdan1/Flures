@@ -9,6 +9,9 @@ body{
     /* background-color: #f8e0ed; */
     height: 100vh;
 }
+.content{
+    background-color: rgba(0, 0, 0, 0.156);
+}
 a,
 nav,
 section,
@@ -72,11 +75,11 @@ nav ul li{
     margin-right: 20px;
 }
 nav ul li a{
-    color: #ffffff;
+    color: #fae1ee;
     font-weight: 400;
 }
 nav ul li a:hover{
-    color: #fae1ee;
+    color: white;
 }
 nav button{
     width: 80px;
@@ -111,20 +114,21 @@ nav button{
     transition: all,0.3s;
     font-weight: 600;
 }
-nav button:hover{
-    background-image: linear-gradient(125deg,#d195b6,transparent );
-}
+/* nav button:hover{
+    border: 2px solid #a35e84;
+} */
 nav div button:last-child{
     /* padding: calc(10px - 0.14em)  (10px - 0.14em); */
     /* border: 0.14em solid #F4F6FF; */
+    color:#a35e84 ;
     margin-left: 5px;
-    background-color: #cc83ab;
+    background-color: #fae1ee;
 }
 
 /* ــــــــــــــــــــــــــــــــــــــ[Conetnt]ــــــــــــــــــــــــــــــــــــــ */
 
 h1{
-    color: #a35e84;
+    color: #fff3f9;
     font-size: 64px;
     font-weight: 700;
     line-height: 1;
@@ -133,7 +137,8 @@ h1{
 /* ــــــــــــــــــــــــــــــــــــــ[Footer]ــــــــــــــــــــــــــــــــــــــ */
 
 .semifooter{
-    background-image:linear-gradient(125deg, #a35e84,#ecb3d1);
+    /* background-image:linear-gradient(125deg, #a35e84,#ecb3d1); */
+    background-color: #a35e84;
     height: 250px;
     border-radius: 50px 50px 0px 0px;
     position: relative;
@@ -143,7 +148,7 @@ h1{
     width: 70px;
     height: 70px;
     background-color: #ffdaed;
-    color: #bd80a2;
+    color: #a35e84;
     font-size: 22px;
     padding: 5px;
     border: none;
@@ -153,20 +158,20 @@ h1{
     top: 60%;
     left: 50%;
     transform: translate(-50%, 0);
-    transition: all,0.3s;
+    transition: all,0.2s;
 }
 .semifooter button:hover{
-    /* width: 80px;
-    height: 80px;
-    font-size: 28px; */
-    background-image:linear-gradient(125deg, white,#ffdaed);
+    background-color: #a35e84;
+    color: #ffdaed;
+    border: 4px solid #ffdaed;
+    border-radius: 50%;
 }
 h2{
     font-size: 34px;
     /* margin-bottom: 10px; */
 }
 .semifooter h2{
-    color: #f8e0ed;
+    color: #fae1ee;
 }
 .semifooter p {
     font-size: 18px;
