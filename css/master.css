@@ -19,10 +19,6 @@ button{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-/* .container{
-    padding: 10px 30px;
-    background-color: var();
-} */
 header,
 .container,
 section{
@@ -31,6 +27,8 @@ section{
 }
 section:last-child{
     padding:2% 16% 0%;
+    position: relative;
+    overflow: hidden;
 }
 .content{
     height: 100%;
@@ -38,13 +36,7 @@ section:last-child{
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 /* ــــــــــــــــــــــــــــــــــــــ[Header]ــــــــــــــــــــــــــــــــــــــ */
-
-/* header{
-    padding:20px 40px;
-} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -114,35 +106,27 @@ nav button{
     transition: all,0.3s;
     font-weight: 600;
 }
-/* nav button:hover{
-    border: 2px solid #a35e84;
-} */
 nav div button:last-child{
-    /* padding: calc(10px - 0.14em)  (10px - 0.14em); */
-    /* border: 0.14em solid #F4F6FF; */
     color:#a35e84 ;
     margin-left: 5px;
     background-color: #fae1ee;
 }
-
 /* ــــــــــــــــــــــــــــــــــــــ[Conetnt]ــــــــــــــــــــــــــــــــــــــ */
-
 h1{
     color: #fff3f9;
     font-size: 64px;
     font-weight: 700;
     line-height: 1;
 }
-
 /* ــــــــــــــــــــــــــــــــــــــ[Footer]ــــــــــــــــــــــــــــــــــــــ */
-
 .semifooter{
-    /* background-image:linear-gradient(125deg, #a35e84,#ecb3d1); */
     background-color: #a35e84;
     height: 250px;
     border-radius: 50px 50px 0px 0px;
     position: relative;
     padding: 15px 30px;
+    top: 250px;
+    transition: all,0.5s;
 }
 .semifooter button{
     width: 70px;
@@ -158,7 +142,7 @@ h1{
     top: 60%;
     left: 50%;
     transform: translate(-50%, 0);
-    transition: all,0.2s;
+    transition: all,0.3s;
 }
 .semifooter button:hover{
     background-color: #a35e84;
@@ -168,7 +152,6 @@ h1{
 }
 h2{
     font-size: 34px;
-    /* margin-bottom: 10px; */
 }
 .semifooter h2{
     color: #fae1ee;
@@ -177,7 +160,3 @@ h2{
     font-size: 18px;
     color: #f1d3e3;
 }
-/* .two{
-    position: absolute;
-    top: calc(100vh + 250px );
-} */
