@@ -1,5 +1,12 @@
 
 /* ــــــــــــــــــــــــــــــــــــــ[Header]ــــــــــــــــــــــــــــــــــــــ */
+const menuBtn = document.querySelector(".menuBtn")
+const menu = document.querySelector(".menu")
+
+menuBtn.addEventListener('click', function(){
+    menu.classList.toggle("menuToggle")
+})
+
 const searchBox = document.getElementById("sbb");
 
 const contentBody1 = document.querySelector(".one")
@@ -11,8 +18,6 @@ searchB.addEventListener('click',function(){
 contentBody1.addEventListener('click',function (){
     searchBox.classList.remove("searchBoxx");
 })
-
-
 /* ــــــــــــــــــــــــــــــــــــــ[Conetnt]ــــــــــــــــــــــــــــــــــــــ */
 
 
@@ -26,6 +31,7 @@ contentBody1.addEventListener('click',function (){
 //     , 2000);
 
 const footer = document.querySelector(".semifooter");
+
 window.onload = function(){
     setTimeout(function(){
         footer.style.top = '0px'

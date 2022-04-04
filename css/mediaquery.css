@@ -1,0 +1,35 @@
+@media (max-width:420px) {
+    body{
+        background-image: url(/imgs/backgroundm.jpg);
+    }
+    header,
+    .container,
+    section{
+        padding: 4%;
+    }
+    section:last-child {
+        padding: 2% 0% 0%;
+    }
+    .menu,
+    .menuBtn{
+        display: block;
+    }
+    .searchBox,
+    .b1{
+        display: none;
+    }
+    h1{
+        font-size: 50px;
+    }
+    nav div button:last-child {
+        margin-left: 0;
+    }
+    .semifooter {
+        height: 360px;
+        padding: 30px;
+        top: 360px;
+    }
+    .semifooter button{
+        top: 65%;
+    }
+}

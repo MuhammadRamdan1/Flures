@@ -37,12 +37,46 @@ section:last-child{
     justify-content: space-between;
 }
 /* ــــــــــــــــــــــــــــــــــــــ[Header]ــــــــــــــــــــــــــــــــــــــ */
+.menu {
+    display: none;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.menuToggle {
+    height: 340px;
+    width: 265px;
+    background-color: rgba(0, 0, 0, 0.088);
+    position: absolute;
+    top: 70px;
+    right: 16.547px;
+}
+.menuBtn {
+    display: none;
+    width: 50px;
+    height: 40px;
+    background-color: #fae1ee;
+    border-radius: 12px;
+}
+.menuContent {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.searchBox2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav div:first-child{
+nav .fc{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -93,6 +127,19 @@ nav button{
     width: 0;
     height: 0;
     border: none;
+}
+.sb2{
+    border: none;
+    width: 200px;
+    height: 25px;
+    outline: none;
+    padding: 0px 10px;
+    font-family: 'Poppins',sans-serif;
+    color: #a35e84;
+    background-color: #f8e0ed;
+    border-radius: 12px;
+    transition: all,0.3s;
+    font-weight: 600;
 }
 .searchBoxx{
     width: 200px;
