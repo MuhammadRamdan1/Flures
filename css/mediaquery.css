@@ -5,21 +5,27 @@
     header,
     .container,
     section{
-        padding: 4%;
+        padding: 6% 4%;
     }
     section:last-child {
         padding: 2% 0% 0%;
     }
-    .menu,
-    .menuBtn{
+    /* .menu{
         display: block;
+    } */
+    .menuBtn{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
     }
     .searchBox,
     .b1{
         display: none;
     }
     h1{
-        font-size: 50px;
+        font-size: 46px;
     }
     nav div button:last-child {
         margin-left: 0;
@@ -28,6 +34,9 @@
         height: 360px;
         padding: 30px;
         top: 360px;
+    }
+    .semifooter h2{
+        font-size: 32px;
     }
     .semifooter button{
         top: 65%;

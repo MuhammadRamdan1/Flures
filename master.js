@@ -1,10 +1,10 @@
 
 /* ــــــــــــــــــــــــــــــــــــــ[Header]ــــــــــــــــــــــــــــــــــــــ */
 const menuBtn = document.querySelector(".menuBtn")
-const menu = document.querySelector(".menu")
+const menuC = document.querySelector(".menuContent")
 
 menuBtn.addEventListener('click', function(){
-    menu.classList.toggle("menuToggle")
+    menuC.classList.toggle("menuToggle")
 })
 
 const searchBox = document.getElementById("sbb");
